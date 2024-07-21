@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn with Us</title>
+    <link rel="stylesheet" href="udemyjk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Udemy</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            </nav>
+            <div class="header-buttons">
+                <a href="#login" class="btn">Login</a>
+                <a href="#signup" class="btn primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Learn New Skills Online with Top Instructors</h1>
+            <p>Explore our extensive range of courses and start learning today.</p>
+            <a href="#courses" class="btn primary">Browse Courses</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best online learning experience. Our platform offers a wide range of courses designed to help you achieve your goals. Whether you're looking to advance your career or learn a new hobby, we have something for everyone.</p>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Popular Courses</h2>
+            <div class="course-list">
+                <div class="course">
+                    <img src="https://timesproweb-static-backend-prod.s3.ap-south-1.amazonaws.com/Web_Development_Banner_Image_0e476d1ab6.webp" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>Learn to build websites from scratch using the latest technologies.</p>
+                </div>
+                <div class="course">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW8Ts1NYrIV6YXu35_WxCWEvL7228qrSwWgtvrUqBAPA&s" alt="Data Science">
+                    <h3>Data Science</h3>
+                    <p>Master data analysis, visualization, and machine learning techniques.</p>
+                </div>
+                <div class="course">
+                    <img src="https://usa.bootcampcdn.com/wp-content/uploads/sites/119/2020/11/DM_blog_post_image_03.jpg" alt="Digital Marketing">
+                    <h3>Digital Marketing</h3>
+                    <p>Learn how to market products and services online effectively.</p>
+                </div>
+                <div class ="course">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRRjnbx_mWNZ7yIOtDxi-w63myxyJVVFbKREkpvO5Ex_EAab7ebT75z7yoOyZWAlR54o4&usqp=CAU" alt="Python Programming">
+                    <h3>Python Programming</h3>
+                    <p>Learn Python with which you can create anything you can imagine.</p>
+                </div>
+                <div class="course">
+                        <img src="https://aaft.edu.in/wp-content/uploads/2023/03/business-management-help-review_141072_large.jpg" alt="Business Management">
+                        <h3>Business Management</h3>
+                        <p>Gain the skills to manage and grow your business successfully.</p>
+                </div>
+                <div class="course">
+                    <img src="https://contentstatic.techgig.com/photo/msid-90078705/Myths-around-Java-programming-language-you-shouldnt-believe.jpg" alt="Java Programming">
+                    <h3>Java Programming</h3>
+                    <p>Java-Zero to Hero.</p>
+                </div>
+                <div class="course">
+                    <img src="https://www.adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg" alt="Photography">
+                    <h3>Photography</h3>
+                    <p>Discover the art of photography and improve your skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, please get in touch with us. We're here to help!</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

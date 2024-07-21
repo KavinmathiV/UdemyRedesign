@@ -1,0 +1,210 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background: #630436;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #faf7f7;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    color: #faf4f4;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn.primary {
+    background: #f4f2f2;
+    color: #630436;
+    border: 1px solid #630436;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar ul.active {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.hero {
+    background: url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    color: #100f0f;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+    background: #630436;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.courses {
+    padding: 50px 0;
+}
+
+.courses h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.course {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.course h3 {
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 16px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #630436;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
